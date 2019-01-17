@@ -94,6 +94,7 @@ def play_war_game(testing=False):
     else:
         return "Tie", p1_score, p2_score
 
+print("just a little bit change")
 
 result = play_war_game()
 print("\n\nWinner is: {} - Player 1 scored {}, Player 2 scored {}".format(*result))
